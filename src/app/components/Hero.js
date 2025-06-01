@@ -72,9 +72,26 @@ const Hero = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          Transform your body, your mind and your life.
+          No excuses, just results!
         </motion.p>
-        {/* <motion.a
+        {/* <m<motion.h1
+  className="text-red-500 text-5xl md:text-7xl font-normal font-['Poetsen_One',sans-serif]"
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 0.6, delay: 0.2 }}
+>
+  The Rock Gym.
+</motion.h1>
+
+<motion.p
+  className="text-red-500 text-lg md:text-2xl max-w-2xl mx-auto mb-8 font-normal font-['Poetsen_One',sans-serif]"
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 0.6, delay: 0.4 }}
+>
+  Transform your body, your mind and your life.
+</motion.p>
+otion.a
           href="#join"
           className="px-6 py-3 bg-red-500 text-gray-800 hover:bg-red-600 text-lg rounded-md transition-all duration-300 inline-block"
           whileHover={{ scale: 1.1 }}
