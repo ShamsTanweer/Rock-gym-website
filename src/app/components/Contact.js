@@ -43,18 +43,18 @@ const Contact = () => {
     <section id="contact" className="bg-black text-white py-16 px-6 lg:px-48">
       <div className="container mx-auto space-y-16">
         
-        <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
-          variants={containerVariants}
-          initial="initial"
-          whileInView="animate"  
-          viewport={{ once: false, amount: 0.3 }} 
-        >
+<motion.div
+  className="flex flex-wrap items-center justify-center gap-8 sm:justify-start lg:justify-center"
+  variants={containerVariants}
+  initial="initial"
+  whileInView="animate"  
+  viewport={{ once: false, amount: 0.3 }} 
+>
           {[
             { icon: <FaPhoneAlt />, text: "+918227822710" },
             { icon: <FaEnvelope />, text: "contact@rockgym.com" },
             { icon: <FaMapMarkerAlt />, text: "NIT ,Mahendru, Patna, India 800006" },
-            { icon: <FaGlobe />, text: "rockgym-shams.vercel.app" },
+            // { icon: <FaGlobe />, text: "rockgym-shams.vercel.app" },
           ].map((card, index) => (
             <motion.div
               key={index}
